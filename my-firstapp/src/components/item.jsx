@@ -1,8 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
 function BasicExample(props) {
+  
+
+  
+  
   return (
+
     <Card className='card-container'>
      {props.imageSrc && <Card.Img className='card-image'variant="top" src={props.imageSrc} alt='Card Image'/>}
       <Card.Body>
